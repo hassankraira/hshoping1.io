@@ -1,3 +1,5 @@
+import { AuthService } from './auth.service';
+import { Router, Routes } from '@angular/router';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HShoping';
+  constructor(private router:Router,public authService:AuthService ){
+
+  }
+
 }

@@ -33,4 +33,10 @@ input{
     margin-left: 35%;
  margin-bottom: 10%;
 }
-
+.select{
+    width:70%
+}
+.error{
+    border-color: red;
+    
+}
